@@ -1,0 +1,135 @@
+.navbar {
+    background-color: rgb(1, 1, 83);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar .logo {
+    background: linear-gradient(to right, #4300fcf3, #f901fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    padding:10px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .navbar .nav-links a {
+    background:linear-gradient(to left, #4200fc, #f901fc);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+     transition: background-color 0.3s, border-bottom 0.3s;
+    text-decoration: none;
+  }
+  .navbar .nav-links a:hover {
+    border-bottom: 8px solid transparent; /* Set initial border to transparent */
+    background-image: linear-gradient(to right, #00a0fc, #fc01b1); /* Gradient color for hover */
+max-width: 100%;
+  }
+
+  #home{
+    background-image: url("homepagebg.jpg");
+    display:absolute;
+background-repeat:no-repeat;
+overflow:hidden;
+background-size: cover;
+max-width: 100%; 
+  }
+ 
+
+  .intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+   padding:20px;
+   
+}
+
+.intro .greet {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.intro .name {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.intro .job {
+    color: #ffc107;
+}
+
+.intro .social {
+    display: flex;
+   
+    align-items: left;
+    margin-top: 2rem;
+    
+}
+
+.intro .social a {
+    display: inline-block;
+    margin-right: 13px;
+    
+    padding: 5px 10px;
+    background-image:linear-gradient(to left, #00a0fc, #fc01b1);
+    color: rgb(5, 8, 179);
+    text-decoration:none;
+    
+    border-radius: 12px;
+}
+
+.intro .social a:hover {
+    color: #ccc;
+}
+
+.about {
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #4300fc, #f901fc);
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.about .content {
+    text-align: center;
+    max-width: 600px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
